@@ -8,7 +8,6 @@ extern "C"
 #include <lualib.h>
 }
 
-
 int main()
 {
 	lua_State* L = luaL_newstate(); // lua 상태생성

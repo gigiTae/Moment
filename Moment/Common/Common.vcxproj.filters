@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{46b07c3a-3438-4af3-9376-7a5d708639c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\cpp">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DX11Renderer.cpp">
+      <Filter>Windows\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiSystem.cpp">
+      <Filter>Windows\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="LogWindow.cpp">
+      <Filter>Windows\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>Windows\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManager.cpp">
+      <Filter>Windows\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowSystem.cpp">
+      <Filter>Windows\cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGuiColor.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiSystem.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="IWindow.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="LogWindow.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManager.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowSystem.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11Renderer.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
