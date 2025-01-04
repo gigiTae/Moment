@@ -15,7 +15,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 	while (ws.BeginLoof())
 	{
 		ImGui::Begin("Test");
-		ImGui::End();
+		ImGui::End(); 
 
 		ws.EndLoof();
 	}

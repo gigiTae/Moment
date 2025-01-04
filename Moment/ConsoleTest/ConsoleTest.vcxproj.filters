@@ -9,8 +9,16 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{3223db4d-5b8f-4988-8a81-8bf21a30af66}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="lua.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="static_constexpr.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
