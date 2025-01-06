@@ -38,6 +38,7 @@ namespace common
 	public:
 		static UINT Width;
 		static UINT Height;
+
 	private:
 		HWND mHwnd;
 		HINSTANCE mHInstance;
