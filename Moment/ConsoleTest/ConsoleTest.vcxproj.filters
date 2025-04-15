@@ -12,6 +12,9 @@
     <Filter Include="test">
       <UniqueIdentifier>{3223db4d-5b8f-4988-8a81-8bf21a30af66}</UniqueIdentifier>
     </Filter>
+    <Filter Include="WindowsCPP">
+      <UniqueIdentifier>{234475b8-6fa3-470e-a9f9-9dac54004a55}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="lua.cpp">
@@ -19,6 +22,9 @@
     </ClCompile>
     <ClCompile Include="static_constexpr.cpp">
       <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="critical_section.cpp">
+      <Filter>WindowsCPP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

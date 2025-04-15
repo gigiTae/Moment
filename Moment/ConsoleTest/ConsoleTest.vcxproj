@@ -129,6 +129,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="critical_section.cpp" />
     <ClCompile Include="lua.cpp" />
     <ClCompile Include="static_constexpr.cpp" />
   </ItemGroup>
