@@ -26,5 +26,8 @@
     <ClCompile Include="critical_section.cpp">
       <Filter>WindowsCPP</Filter>
     </ClCompile>
+    <ClCompile Include="SIMD.cpp">
+      <Filter>WindowsCPP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
